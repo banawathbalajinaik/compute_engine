@@ -1,7 +1,7 @@
 provider "google" {
-  project     = "inframod-training"
+  project     = "tesing-342306"
   region      = "us-central1"
-  credentials = file("inframod-training-731ed4a897e2.json")
+  credentials = file("tesing-342306-f93e1b4153bc.json")
 }
 
 module "compute_engine" {
