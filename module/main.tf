@@ -7,17 +7,12 @@ provider "google" {
 resource "google_compute_instance" "balaji" {
   name         = "testing1"
   machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  zone         = "us-central1"
 
   boot_disk {
     initialize_params {
       image = "debian-cloud/debian-9"
     }
-  }
-
-  // Local SSD disk
-  scratch_disk {
-    interface = "SCSI"
   }
 
   network_interface {
