@@ -1,7 +1,7 @@
 provider "google" {
-  project     = "tesing-342306"
+  project     = "inframod-training"
   region      = "asia-south1"
-  credentials = file("tesing-342306-f93e1b4153bc.json")
+  credentials = file("inframod-training-d2041373fd4a.json")
 }
 
 resource "google_compute_instance" "balaji" {
