@@ -4,6 +4,3 @@ provider "google" {
   credentials = file("tesing-342306-f93e1b4153bc.json")
 }
 
-module "compute_engine" {
-  source = ".//modules-1"
-}
